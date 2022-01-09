@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header__inner">
+        <div class="header__title">Донецкий Национальный Технический Университет</div>
+        <div class="header__box">
+          <a class="header__btn" data-fancybox href="#open">Войти\авторизоваться</a>
+          <a class="header__btn" data-fancybox href="#registration">Зарегистрироваться</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="info">
+    <div class="info__top">
+      <div class="info__title">Электронная подача документов в ДОННТУ</div>
+      <div class="info__images">
+        <img class="info__images-bg" src="images/info__images-bg.jpg" alt="img">
+        <img class="info__images-logo" src="images/info-logo.png" alt="img">
+      </div>
+    </div>
+    <div class="info__content">
+      <div class="container">
+        <div class="info__inner">
+         <div class="info__item">
+           <div class="info__item-title">факультеты</div>
+           <div class="info__item-title info__item-title--adress">ЭЛЕКТРОННЫЙ АДРЕС ОТБОРОЧНЫХ КОМИССИЙ</div>
+         </div>
+         <ul class="info__list">
+           <li class="info__link">
+             <div class="info__link-item info__link-title">Горный факультет</div>
+             <a class="info__link-item info__link-btn" href="#">gf_priem@donntu.org, gf@donntu.org</a>
+           </li>
+           <li class="info__link">
+            <div class="info__link-item info__link-title">Институт инновационных технологий заочного обучения</div>
+            <a class="info__link-item info__link-btn" href="#">sab@donntu.org</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Инженерно-экономический факультет</div>
+            <a class="info__link-item info__link-btn" href="#">pochtashtager@gmail.com.</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет инженерной механики и машиностроения</div>
+            <a class="info__link-item info__link-btn" href="#">fimm.priem@yahoo.com</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет компьютерных информационных технологии и автоматика</div>
+            <a class="info__link-item info__link-btn" href="#">voluevaos_work@mail.ru</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет компьютерных наук и технологий</div>
+            <a class="info__link-item info__link-btn" href="#">priemcomp@bk.ru</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет металлургии и теплоэнергетики</div>
+            <a class="info__link-item info__link-btn" href="#">decanat@fizmet.donntu.org</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет недропользования и наук о Земле</div>
+            <a class="info__link-item info__link-btn" href="#">fnnz_priem@donntu.org</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Факультет экологии и химической технологии</div>
+            <a class="info__link-item info__link-btn" href="#">gannovaj@mail.ru, desik7@mail.ru</a>
+          </li>
+          <li class="info__link">
+            <div class="info__link-item info__link-title">Электротехнический факультет</div>
+            <a class="info__link-item info__link-btn" href="#">etf_donntu@mail.ru, decanat_etf@donntu.org</a>
+          </li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="registration" id="registration">
+    <div class="registration__inner">
+      <div class="registration__title">РЕГИСТРАЦИЯ</div>
+      <form class="registration__form">
+        <div class="registration__item">
+          <input class="registration__input" required type="text" placeholder="Логин">
+          <input class="registration__input" required type="password" placeholder="Пароль">
+          <input class="registration__input" required type="password" placeholder="Подтв. пароль">
+          <input class="registration__input" required type="text" placeholder="Фамилия">
+          <input class="registration__input" required type="text" placeholder="Имя">
+          <input class="registration__input" required type="text" placeholder="Отчество">
+          <input class="registration__input" required type="date">
+          <input class="registration__input" required type="email" placeholder="Email.com">
+          <input class="registration__input" required type="tel" placeholder="Номер тел.">
+          <div class="registration__item-box">
+            <div class="registration__item-text">Решите пример (капчу):</div>
+            <div class="registration__item-link">
+              <span class="registration__item-span">9-2-4=</span>
+              <input class="registration__input registration__item-input" required type="text">
+            </div>
+          </div>
+        </div>
+        <div class="registration__box">
+          <div class="registration__box-top">
+            <div class="registration__text">Прочие контакты<br>(Viber, WhatsApp и прочие):<br>(разрешены двойные и одиночные кавычки)</div>
+            <textarea class="registration__textarea"></textarea>
+            <div class="registration__box-link">
+              <div class="registration__box-input">
+                <input class="page-checkbox registration__checkbox" type="checkbox" required>
+              </div>
+              <label class="registration__label">Даю согласие на использование моих персональных данных в электронной базе ДонНТУ и гарантирую их достоверность.</label>
+            </div>
+          </div>
+          <div class="registration__buttons">
+            <button class="registration__btn" type="submit">РЕГИСТРИРОВАТЬ</button>
+            <button class="registration__btn registration__btn-close" type="reset">ОТМЕНА</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="open" id="open">
+    <div class="open__inner">
+      <div class="registration__title open__title">АВТОРИЗАЦИЯ</div>
+      <div class="open__text">ВНИМАНИЕ АБИТУРИЕНТАМ! Для логина разрешены только буквы, цифры, точка, @, знак подчёркивания, пробел. Если в вашем логине были другие символы, то вводите его исключив из него не разрешёные символы.</div>
+      <form class="open__form">
+        <div class="open__item user-icon">
+          <input class="registration__input open__input" type="text" required placeholder="Логин">
+        </div>
+        <div class="open__item lock-icon">
+          <input class="registration__input open__input" type="password" required placeholder="Пароль">
+        </div>
+        <div class="registration__item-box open__item-box">
+          <div class="registration__item-text">Решите пример (капчу):</div>
+          <div class="registration__item-link">
+            <span class="registration__item-span">9-2-4=</span>
+            <input class="registration__input registration__item-input" required type="text">
+          </div>
+        </div>
+        <div class="open__buttons">
+          <button class="registration__btn open__btn" type="submit">ВОЙТИ</button>
+          <button class="registration__btn open__btn" type="reset">ОТМЕНА</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

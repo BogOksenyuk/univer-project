@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      
+  <form class="profile-form">
+    <div class="container-fluid">
+      <div class="title profile-form__title">ПЕРСОНАЛЬНЫЕ ДАННЫЕ</div>
+      <div class="profile-form__items">
+        <div class="profile-form__item profile-form__name">
+          <div class="profile-form__name-link">ФИО</div>
+          <div class="profile-form__name-box">
+            <div class="profile-form__name-line">
+              <input class="profile-form__input profile-form__name-input" type="text" placeholder="Фамилия">
+            </div>
+            <div class="profile-form__name-line">
+              <input class="profile-form__input profile-form__name-input" type="text" placeholder="Имя">
+            </div>
+            <div class="profile-form__name-line">
+              <input class="profile-form__input profile-form__name-input" type="text" placeholder="Отчество">
+            </div>
+          </div>
+        </div>
+        <div class="profile-form__item profile-form__address">
+          <div class="profile-form__address-item">
+            <span class="profile-form__address-span">Гражданство:</span>
+            <input class="profile-form__input" type="text">
+          </div>
+          <div class="profile-form__address-item">
+            <span class="profile-form__address-span">ИНН:</span>
+            <input class="profile-form__input" type="text">
+          </div>
+          <div class="profile-form__address-item profile-form__address-vibor">
+            <span class="profile-form__address-span">Требуется общежите:</span>
+            <div class="profile-form__address-uslugi profile-form__address-yes">ДА</div>
+            <div class="profile-form__address-uslugi profile-form__address-not">НЕТ</div>
+          </div>
+        </div>
+        <div class="profile-form__item profile-form__contact">
+          <div class="profile-form__address-item">
+            <span class="profile-form__address-span">Телефон дом.:</span>
+            <input class="profile-form__input" type="tel">
+          </div>
+          <div class="profile-form__address-item">
+            <span class="profile-form__address-span">Телефон моб.:</span>
+            <input class="profile-form__input" type="tel">
+          </div>
+           <div class="profile-form__address-item">
+            <span class="profile-form__address-span">E-mail:</span>
+            <input class="profile-form__input" type="email">
+          </div>
+        </div>
+      </div>
+      <div class="profile-form__language">
+        <div class="profile-form__language-title">Изучал иностранные языки</div>
+        <ul class="profile-form__language-list">
+          <li class="profile-form__language-link"><span>Английский</span></li>
+          <li class="profile-form__language-link"><span>Французкий</span></li>
+          <li class="profile-form__language-link"><span>Немецкий</span></li>
+        </ul>
+      </div>
+      <div class="profile-form__block">
+        <div class="profile-form__block-top">
+          <div class="profile-form__block-item">
+            <span>Адреса совподают:</span>
+            <div class="profile-form__block-vibor profile-form__block-yes">ДА</div>
+            <div class="profile-form__block-vibor profile-form__block-not active">НЕТ</div>
+          </div>
+          <div class="profile-form__block-title">Адрес регистрации</div>
+          <div class="profile-form__block-title profile-form__block-title--address">Адрес проживания</div>
+        </div>
+        <div class="profile-form__inner profile-form__user">
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Область:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Район:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Населённый пункт:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Улица:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Дом:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Квартира:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+          <div class="profile-form__box">
+            <div class="profile-form__box-text">Индекс:</div>
+            <input class="profile-form__box-input" type="text" placeholder="Адрес регистрации">
+            <input class="profile-form__box-input input-adress" type="text" placeholder="Адрес проживания">
+          </div>
+        </div>
+        <div class="profile-form__inner profile-form__family">
+          <div class="profile-form__family-item">
+            <div class="profile-form__family-title">Данные отца</div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Фамилия:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Имя:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Отчество:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Прописка (для абитуриентов без паспорта):</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+          </div>
+          <div class="profile-form__family-item">
+            <div class="profile-form__family-title">Данные матери</div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Фамилия:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Имя:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Отчество:</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+            <div class="profile-form__family-link">
+              <div class="profile-form__family-text">Прописка (для абитуриентов без паспорта):</div>
+              <input class="profile-form__box-input profile-form__family-input" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-form__buttons">
+        <button class="profile-form__btn">СОХРАНИТЬ\ЗАМЕНИТЬ МОИ ДАНЫЕ</button>
+        <button class="profile-form__btn" type="reset">ОТМЕНА</button>
+      </div>
+    </div>
+  </form>
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
